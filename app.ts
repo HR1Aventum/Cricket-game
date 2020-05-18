@@ -1,7 +1,7 @@
 class Players {
     name: string;
-    ball:number[]=[];
-  
+    ball:[number,number,number,number,number,number]
+    
     constructor(n: string) {
       this.name = n;
     }
@@ -19,11 +19,11 @@ class Players {
     }
   }
   
-  const accounting = new Players('Accounting');
+  const Players1= new Players('Accounting');
   
-  accounting.describe();
-  accounting.hit();
-  accounting.totalrun();
+  Players1.describe();
+  Players1.hit();
+  Players1.totalrun();
   
 //   const accountingCopy = { name: 'DUMMY', describe: accounting.describe };
   
