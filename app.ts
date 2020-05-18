@@ -23,7 +23,7 @@ class Players {
   
   Players1.describe();
   Players1.hit();
-  Players1.totalrun();
+  Players1.totalrun()
   
 //   const accountingCopy = { name: 'DUMMY', describe: accounting.describe };
   
