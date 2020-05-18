@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cricket Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-5">
+        <h1 style="text-align: center;">Team A Scoreboard</h1>
+        <table class="table table-striped table-dark">
+
+          <tr>
+            <th class="col">#</th>
+            <th class="col">ball 1</th>
+            <th class="col">ball 2</th>
+            <th class="col">ball 3</th>
+            <th class="col">ball 4</th>
+            <th class="col">ball 5</th>
+            <th class="col">ball 6</th>
+          </tr>
+          <tr>
+            <td>player 1</td>
+            <td id="0"></td>
+            <td id="1"></td>
+            <td id="2"></td>
+            <td id="3"></td>
+            <td id="4"></td>
+            <td id="5"></td>
+
+          </tr>
+          <tr>
+            <td>player 2</td>
+            <td id="6"></td>
+            <td id="7"></td>
+            <td id="8"></td>
+            <td id="9"></td>
+            <td id="10"></td>
+            <td id="11"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 3</td>
+            <td id="12"></td>
+            <td id="13"></td>
+            <td id="14"></td>
+            <td id="15"></td>
+            <td id="16"></td>
+            <td id="17"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 4</td>
+            <td id="18"></td>
+            <td id="19"></td>
+            <td id="20"></td>
+            <td id="21"></td>
+            <td id="22"></td>
+            <td id="23"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 5</td>
+            <td id="24"></td>
+            <td id="25"></td>
+            <td id="26"></td>
+            <td id="27"></td>
+            <td id="28"></td>
+            <td id="29"></td>
+
+          </tr>
+
+
+          <tr>
+            <td>player 6</td>
+            <td id="30"></td>
+            <td id="31"></td>
+            <td id="32"></td>
+            <td id="34"></td>
+            <td id="35"></td>
+            <td id="36"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 7</td>
+            <td id="37"></td>
+            <td id="38"></td>
+            <td id="39"></td>
+            <td id="40"></td>
+            <td id="41"></td>
+            <td id="42"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 8</td>
+            <td id="43"></td>
+            <td id="44"></td>
+            <td id="45"></td>
+            <td id="46"></td>
+            <td id="47"></td>
+            <td id="48"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 9</td>
+            <td id="49"></td>
+            <td id="50"></td>
+            <td id="51"></td>
+            <td id="52"></td>
+            <td id="53"></td>
+            <td id="54"></td>
+
+          </tr>
+
+          <tr>
+            <td>player 10</td>
+            <td id="55"></td>
+            <td id="56"></td>
+            <td id="57"></td>
+            <td id="58"></td>
+            <td id="59"></td>
+            <td id="60"></td>
+
+          </tr>
+        </table>
+      </div>
+      <div class="col-2" style="text-align: center;">
+        <button type="button" class="btn btn-primary"style="margin-bottom: 50px; margin-top: 70px;">Hit for team 1</button><br>
+        <button type="button" class="btn btn-primary"style="margin-bottom: 50px;">Hit for team 2</button><br>
+        <button type="button" class="btn btn-danger"style="margin-bottom: 50px;">Find Result</button><br>
+
+      </div>
+      <div class="col-5">
+        <h1 style="text-align: center;">Team B Scoreboard</h1>
+
+          <table class="table table-striped table-dark">
+
+            <tr>
+              <th class="col">#</th>
+              <th class="col">ball 1</th>
+              <th class="col">ball 2</th>
+              <th class="col">ball 3</th>
+              <th class="col">ball 4</th>
+              <th class="col">ball 5</th>
+              <th class="col">ball 6</th>
+            </tr>
+            <tr>
+              <td>player 1</td>
+              <td id="0"></td>
+              <td id="1"></td>
+              <td id="2"></td>
+              <td id="3"></td>
+              <td id="4"></td>
+              <td id="5"></td>
+  
+            </tr>
+            <tr>
+              <td>player 2</td>
+              <td id="6"></td>
+              <td id="7"></td>
+              <td id="8"></td>
+              <td id="9"></td>
+              <td id="10"></td>
+              <td id="11"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 3</td>
+              <td id="12"></td>
+              <td id="13"></td>
+              <td id="14"></td>
+              <td id="15"></td>
+              <td id="16"></td>
+              <td id="17"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 4</td>
+              <td id="18"></td>
+              <td id="19"></td>
+              <td id="20"></td>
+              <td id="21"></td>
+              <td id="22"></td>
+              <td id="23"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 5</td>
+              <td id="24"></td>
+              <td id="25"></td>
+              <td id="26"></td>
+              <td id="27"></td>
+              <td id="28"></td>
+              <td id="29"></td>
+  
+            </tr>
+  
+  
+            <tr>
+              <td>player 6</td>
+              <td id="30"></td>
+              <td id="31"></td>
+              <td id="32"></td>
+              <td id="34"></td>
+              <td id="35"></td>
+              <td id="36"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 7</td>
+              <td id="37"></td>
+              <td id="38"></td>
+              <td id="39"></td>
+              <td id="40"></td>
+              <td id="41"></td>
+              <td id="42"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 8</td>
+              <td id="43"></td>
+              <td id="44"></td>
+              <td id="45"></td>
+              <td id="46"></td>
+              <td id="47"></td>
+              <td id="48"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 9</td>
+              <td id="49"></td>
+              <td id="50"></td>
+              <td id="51"></td>
+              <td id="52"></td>
+              <td id="53"></td>
+              <td id="54"></td>
+  
+            </tr>
+  
+            <tr>
+              <td>player 10</td>
+              <td id="55"></td>
+              <td id="56"></td>
+              <td id="57"></td>
+              <td id="58"></td>
+              <td id="59"></td>
+              <td id="60"></td>
+  
+            </tr>
+          </table>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
